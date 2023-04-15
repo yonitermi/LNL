@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-nav li a {
+    color: black ;
+    font-size: 23px;
+}
+
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white !important
+}
+
+.carousel-item img{
+    width: 100%;
+    height:100vh;
+    object-fit: cover;
+}
+
+.dropdown-menu.custom-border {
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+  }
+
+
+.dropdown-menu .bg-transparent {
+    background-color: transparent;
+}
+
+#logo{
+    width: 15rem;
+    height: 5rem;
+}
+
+#hello{
+    font-size: 15px;
+}
+
+
+/*-----------------------Gallery Pages-------------------------------------*/
+
+
+
+.gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.v-stertch{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.big-stertch{
+    grid-row: span 3;
+    grid-column: span 2; 
+}
+
+@media (max-width: 560px){
+    .v-stertch{
+        grid-row: span 1;
+        grid-column: span 1;
+    } 
+
+    .big-stertch{
+        grid-row: span 1;
+        grid-column: span 1; 
+    }
+
+}
+
+
+/*--------------------------------------contact page------------------------*/ 
+
+.fa-solid{
+    margin-right: 10px;
+}
+
+/* ----------------About------------------- */
+
+.card{
+    margin-bottom: 10px;
+}
+
+#card{
+    border: 1px black solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
