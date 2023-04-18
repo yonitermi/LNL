@@ -24,8 +24,7 @@
 }
 
 .dropdown-menu.custom-border {
-    border-color: rgb(255, 255, 255);
-    border-width: 2px;
+    border :none
   }
 
 
