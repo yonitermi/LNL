@@ -94,12 +94,38 @@
 
 /* ----------------About------------------- */
 
+
+
 .card{
-    margin-bottom: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
-#card{
-    border: 1px black solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+/*-----------------------projects-------------------------------------*/
+
+
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
 }
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+.h-100{
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
 
