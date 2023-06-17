@@ -2,19 +2,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+.navbar{
+  margin: 0 30px;
+}
+
+p, h2{
+  font-family: 'Assistant', sans-serif; 
 }
 
 
+p{
+  font-size: 20px;
+  font-weight: 300;
+}
 
 .navbar-nav li a {
+    font-family: 'Assistant', sans-serif;  
     color: black ;
-    font-size: 23px;
+    font-size: 25px;
+    margin: 0 7px;
+    font-family: 'Assistant', sans-serif;  
 }
 
+.navbar-expand-lg{
+  background-color: transparent;
+}
 
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: white !important
+    color: rgb(38, 185, 33) !important;
+    text-decoration: underline
 }
 
 .carousel-item img{
@@ -85,44 +105,77 @@
 
 }
 
+/*--------------------------------------about------------------------*/ 
 
+.card-body h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-hover {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    transform: translateY(-8px);
+  }
 /*--------------------------------------contact page------------------------*/ 
 
 .fa-solid{
     margin-right: 10px;
 }
 
-/* ----------------About------------------- */
-
-
-
-.card{
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
-
 
 /*-----------------------projects-------------------------------------*/
 
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .card-title {
+    font-size: 30px; /* Adjust the font size as needed */
+    font-family: 'Assistant', sans-serif;  
+  }
+  
+  .card:hover .card-img-overlay,
+  .card .card-img-overlay-mobile {
+    opacity: 1;
+  }
+  
+  .card-title {
+    margin: 0;
+    color: black;
+  }
+  
+  /* Media query for mobile devices */
+  
 
 
-.card-img-top {
-    height: 100%;
-    width: 100%;
-}
 
-.card:hover {
-    transform: scale(1.06);
-    transition: transform 0.3s ease;
-}
+/*------------------------------------------------------------*/
 
 
-.h-100{
-    cursor: pointer;
-}
+.nav-item-no-wrap {
+    white-space: nowrap;
+  }
 
 
-a {
-    text-decoration: none !important;
-}
+
 
 
