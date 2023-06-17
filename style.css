@@ -5,9 +5,6 @@
 
 }
 
-.navbar{
-  margin: 0 30px;
-}
 
 p, h2{
   font-family: 'Assistant', sans-serif; 
@@ -19,6 +16,11 @@ p{
   font-weight: 300;
 }
 
+
+.navbar-nav{
+  margin: 0 20px;
+}
+
 .navbar-nav li a {
     font-family: 'Assistant', sans-serif;  
     color: black ;
@@ -27,13 +29,15 @@ p{
     font-family: 'Assistant', sans-serif;  
 }
 
-.navbar-expand-lg{
-  background-color: transparent;
+
+.nav-item-no-wrap {
+  white-space: nowrap;
 }
 
 
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: rgb(38, 185, 33) !important;
+    color: rgb(70, 231, 64) !important;
     text-decoration: underline
 }
 
@@ -43,14 +47,9 @@ p{
     object-fit: cover;
 }
 
-.dropdown-menu.custom-border {
-    border :none
-  }
 
 
-.dropdown-menu .bg-transparent {
-    background-color: transparent;
-}
+
 
 #logo{
     width: 15rem;
@@ -169,11 +168,6 @@ p{
 
 
 /*------------------------------------------------------------*/
-
-
-.nav-item-no-wrap {
-    white-space: nowrap;
-  }
 
 
 
