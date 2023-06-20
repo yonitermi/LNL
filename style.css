@@ -34,11 +34,14 @@ p{
   white-space: nowrap;
 }
 
+.navbar.fixed-top.collapsed {
+  background-color: white;
+}
+
 
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: rgb(0, 0, 0) !important;
-   
     font-weight: 800;
 }
 
